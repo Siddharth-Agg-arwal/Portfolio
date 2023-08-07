@@ -1,0 +1,112 @@
+/* nav {
+    background: rgba(76, 75, 75, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 4rem;
+    z-index: 5;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.5rem;
+    display: flex;
+    gap: 2rem;
+    backdrop-filter: blur(15px);
+    border-radius: 50px;
+    border: 1px solid #ea638c;
+}
+
+nav a {
+    padding: 0.9rem;
+    display: flex;
+    font-size: 1.1rem;
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+body,
+html {
+  height: 100%;
+}
+body {
+  /* margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9ecff; */
+  font-family: "Roboto";
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin:0 20vw;
+}
+
+ul {
+  width: 80vw;
+  list-style-type: none;
+  padding: 0;
+  background: #432fbf;
+  border-radius: 20px;
+  /* border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px; */
+  /* box-shadow: 2px 10px 20px rgba(67, 47, 191, 0.5); */
+}
+li {
+  font-size: larger;
+  display: inline-block;
+  margin: 1.5%;
+}
+/* li:first-child {
+  margin-left: 30px;
+}
+li:last-child {
+  margin-right: 30px;
+} */
+a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 60px 10px 60px;
+}
+/* svg {
+  stroke: #9386ea;
+  width: 44px;
+  height: 44px;
+  transform: translateX(35px);
+  transition: 0.4s ease all;
+} */
+a.active {
+  color: white;
+}
+a.active svg {
+  stroke: white;
+  transform: translateX(0px);
+}
+
+.link-text {
+  color: white;
+  /* margin-left: 16px; */
+  opacity: 1;
+  transition: 0.3s ease all;
+  user-select: none;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+a.active .link-text {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+.link-background {
+  position: absolute;
+  margin:1.7vw 2vw;
+  background: #5e4ecb;
+  border-radius: 18px;
+  width: 153px;
+  height: 60px;
+  z-index: 0;
+  transition: 0.4s cubic-bezier(0.7, 0, 0.38, 0.86) all;
+}

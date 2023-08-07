@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: #BCC2E3;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.font-face-gm {
+  font-family: "Handjet-Bold";
+}
+
+.font-face-fm {
+  font-family: "foldit";
+}
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Handjet-Bold';
+    src: local('Handjet-Bold'),
+         url('./fonts/Handjet-Bold.ttf') format('truetype'),
+         /* url('./fonts/CustomFont1Name.woff2') format('woff2'); */
+}
+
+@font-face {
+    font-family: 'foldit';
+    src: local('foldit'),
+         url('./fonts/Foldit-Medium.ttf') format('truetype'),
+         /* url('./fonts/CustomFont1Name.woff2') format('woff2'); */
+}
