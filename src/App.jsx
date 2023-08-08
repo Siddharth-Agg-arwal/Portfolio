@@ -13,17 +13,17 @@ export default function App() {
           <h1>
             Hi, I am Siddharth Aggarwal.
           </h1>
-         </Content>
-    </Wrapper>
+        </Content>
+   </Wrapper> 
   );
 }
 
 const Wrapper = styled.div`
-  positon:relative;
+  // positon:relative;
 
-  .spline{
-    positon:absolute;
-  }
+  // .spline{
+  //   positon:absolute;
+  // }
 `;
 
 const Content= styled.div`
