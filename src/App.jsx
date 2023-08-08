@@ -9,11 +9,14 @@ export default function App() {
       <NavBar>
       </NavBar>
       <Spline className="spline" scene="https://prod.spline.design/bdLEqylqiQ855KVP/scene.splinecode" />
-       <Content>
-          <h1>
-            Hi, I am Siddharth Aggarwal.
-          </h1>
-        </Content>
+      <section>
+        <div class="content">
+          <h2>Hi, I am Siddharth Aggarwal</h2>
+          <h2>Hi, I am Siddharth Aggarwal</h2>
+          <br /><br />
+        </div>
+      </section>
+      
    </Wrapper> 
   );
 }
